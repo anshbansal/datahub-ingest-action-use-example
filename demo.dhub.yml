@@ -1,0 +1,5 @@
+source:
+  type: demo-data
+  config: {}
+sink:
+  type: "console"

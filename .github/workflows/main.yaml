@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  datahub_ingest:
+    runs-on: ubuntu-latest
+    name: A job to run datahub ingest
+    steps:
+      - name: Datahub ingest demo
+        id: demo_data
+        uses: anshbansal/datahub-ingest-action@v1
+        with:
+          recipe_file: './demo.dhub.yml'
