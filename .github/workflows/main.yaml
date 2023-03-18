@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: Datahub ingest demo
         id: demo_data
-        uses: anshbansal/datahub-ingest-action@v1
+        uses: anshbansal/datahub-ingest-action@v2
         with:
           recipe_file: './demo.dhub.yml'
